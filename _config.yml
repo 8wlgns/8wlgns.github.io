@@ -1,13 +1,13 @@
 # Site settings
-title:       Lala-Lal-la
+name: Lalala
+title:       null
 email:       8wlgns@naver.com
 author:      JeongYeon Lee
 description: ""
 baseurl:     ""
 url:         "https://8wlgns.github.io"
 date_format: "%b %-d, %Y"
-header_pages:
- - 
+header_pages: null 
 # Google services
 google_verification:
 # Use either direct GA implementation or set up GTM account
