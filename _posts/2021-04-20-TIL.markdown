@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      TIL
+title:      TIL🧙
 date:       2021-04-20
 summary:    
 categories: dairy
