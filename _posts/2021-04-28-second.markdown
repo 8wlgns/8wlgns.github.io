@@ -1,8 +1,0 @@
----
-layout:     post
-title:      글을 써보자
-date:       2021-04-28
-summary:    
-categories: dairy
----
-가나다라마바사
