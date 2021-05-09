@@ -1,14 +1,12 @@
 ---
 layout:     post
-title:      TIL
+title:      TIL👻
 date:       2021-05-09
 summary:    
 categories: dairy
 ---
 fb의 TIL 또는 insagram의 사진을 github pages에 자동으로 업로드하고싶다!
-
-fb's til -> heroku webhook server -> github(jekyll)
-
-https://dashboard.heroku.com/apps/lalalajyl/deploy/github
-https://stackoverflow.com/questions/41069088/how-to-configure-facebook-webhooks
-https://developers.facebook.com/docs/graph-api/webhooks
+- fb's til -> heroku webhook server -> github(jekyll)
+- https://dashboard.heroku.com/apps/lalalajyl/deploy/github
+- https://stackoverflow.com/questions/41069088/how-to-configure-facebook-webhooks
+- https://developers.facebook.com/docs/graph-api/webhooks
