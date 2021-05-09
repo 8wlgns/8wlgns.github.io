@@ -1,0 +1,17 @@
+---
+layout:     post
+title:      TIL
+date:       2021-04-19
+summary:    
+categories: dairy
+---
+TIL
+- 내가하는 일 말고도, 소파트 내에 어떤 태스크가 있는지, 누구한테 온 요청인지 등 현황에 대해.. 간단히라도 알 필요가 있다.. (왜냐하면.. 내가 현황에 대해서 발표를 할 수도 있기 때문이다😂)
+- bigquery내에는 다양한 json지원 함수들이 있다.
+json_extract_scala, json_extract, json_extract_array,
+이 외에도 array를 풀어주는 UNNEST, record 타입으로 만들어주는 ARRAY() 함수가 존재한다.
+- external table vs native table의 차이점은 저장소 외에 또 무엇이 있을까?
+- 초간단 dag를 아래처럼 만들어보기 
+  1. create temp table for law
+  2. json_extract 한 값으로 updated 테이블 추가
+  3. upsert !
