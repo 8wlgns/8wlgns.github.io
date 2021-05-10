@@ -1,12 +1,23 @@
 
 .posts {
   margin: 0;
-  font-family: "Nanum Gothic";
+  font-family: "Nanum Myeongjo";
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.posts .container{
+
+}
+
+.post .py3 .item{
+
 }
 
 .posts .post {
   margin-bottom: 0.75em;
   border-bottom: thin solid #f3f3f3;
+
 }
 
 .posts .post:last-child {

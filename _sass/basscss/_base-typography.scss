@@ -12,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $heading-font-family;
+  font-family: GT America Condensed Bold;
   font-weight: $heading-font-weight;
   line-height: $heading-line-height;
   margin-top: 1em;
@@ -28,11 +28,21 @@ ul {
   margin-bottom: $space-2;
 }
 
+.post-summary ul {
+  display: block; /* Fallback for non-webkit */
+  display: -webkit-box;
+  height: 2.6em; /* Fallback for non-webkit, line-height * 2 */
+  line-height: 1.3em;
+  -webkit-line-clamp: 2; /* if you change this, make sure to change the fallback line-height and height */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 ol,
 ul {
-  padding-left: $space-3;
-  background-color: #fffaf1;
-
+  #padding-left: $space-3;
+  #background-color: #fffaf1;
 }
 
 pre,
