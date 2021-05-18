@@ -3,7 +3,22 @@
   margin: 0;
   font-family: "Nanum Myeongjo";
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+
+/* Screen larger than 600px? 2 column */
+@media (min-width: 200px) {
+  .posts { grid-template-columns: repeat(1, 100%); }
+}
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 500px) {
+  .posts { grid-template-columns: repeat(3, 35%); }
+}
+
+@media (min-width: 900px) {
+  .posts { grid-template-columns: repeat(4, 25%); }
 }
 
 .posts .container{
@@ -15,9 +30,10 @@
 }
 
 .posts .post {
-  margin-bottom: 0.75em;
-  border-bottom: thin solid #f3f3f3;
-
+  border-style: dotted;
+  padding: 1px 3px;
+  border-width: 2px;
+  border-color: #aaa;
 }
 
 .posts .post:last-child {
