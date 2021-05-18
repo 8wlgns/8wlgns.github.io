@@ -6,4 +6,4 @@ summary:
 categories: dairy
 ---
 그림을그렸다.
-![My image Name](../images/momo.jpg)
+![My image Name](/images/momo.jpg)
