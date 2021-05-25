@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      MOMO🧙
+title:      MOMO☺
 date:       2021-05-09
 summary:    
 categories: dairy
 ---
-그림을그렸다.
+그림을그렸다.  
 ![My image Name](/images/momo.jpg)
